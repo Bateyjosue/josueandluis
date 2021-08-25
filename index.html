@@ -15,10 +15,34 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form action="" id="survey-form">
+
         <div>
-            <label for="name">Name:</label>
-            <input type="text" name="" id="name" required>
+            <label id="name-label">Name:</label>
+            <input type="text" name="" id="name" required placeholder="Enter your Name">
         </div>
+      <div>
+        <label id="email-label">Email:</label>
+        <input type="email" name="" id="email" placeholder="Enter your mail" required/>
+      </div>
+      <div>
+        <label id="number-label">Age (optional)</label>
+        <input type="number" id="number" min="10" max="99" placeholder="Age" />
+      </div>
+      <div>
+          <label for="">Which option best describes your current role?</label>
+          <select name="" id="dropdown">
+              <option value="">Full-time</option>
+              <option value="">Part-time</option>
+              <option value="">OTHER</option>
+          </select>
+      </div>
+      <div>
+          <label for="">Which option best describes your current role?</label>
+          <input type="radio" name="recommande" id="" value="Definitely">
+          <input type="radio" name="recommande" id=""  value="Maybe">
+          <input type="radio" name="recommande" id="" value="Not sure">
+      </div>
+      <input type="submit" />
     </form>
     <script src="js/index.js"></script>
   </body>
