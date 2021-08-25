@@ -15,34 +15,60 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form action="" id="survey-form">
-
-        <div>
-            <label id="name-label">Name:</label>
-            <input type="text" name="" id="name" required placeholder="Enter your Name">
-        </div>
+      <div>
+        <label id="name-label">Name:</label>
+        <input
+          type="text"
+          name=""
+          id="name"
+          required
+          placeholder="Enter your Name"
+        />
+      </div>
       <div>
         <label id="email-label">Email:</label>
-        <input type="email" name="" id="email" placeholder="Enter your mail" required/>
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="Enter your mail"
+          required
+        />
       </div>
       <div>
         <label id="number-label">Age (optional)</label>
         <input type="number" id="number" min="10" max="99" placeholder="Age" />
       </div>
       <div>
-          <label for="">Which option best describes your current role?</label>
-          <select name="" id="dropdown">
-              <option value="">Full-time</option>
-              <option value="">Part-time</option>
-              <option value="">OTHER</option>
-          </select>
+        <label for="">Which option best describes your current role?</label>
+        <select name="" id="dropdown">
+          <option value="">Full-time</option>
+          <option value="">Part-time</option>
+          <option value="">OTHER</option>
+        </select>
       </div>
       <div>
-          <label for="">Which option best describes your current role?</label>
-          <input type="radio" name="recommande" id="" value="Definitely">
-          <input type="radio" name="recommande" id=""  value="Maybe">
-          <input type="radio" name="recommande" id="" value="Not sure">
+        <label for="">Which option best describes your current role?</label>
+        <input type="radio" name="recommande" id="" value="Definitely" />
+        <input type="radio" name="recommande" id="" value="Maybe" />
+        <input type="radio" name="recommande" id="" value="Not sure" />
       </div>
-      <input type="submit" />
+      <br>
+        <label for="">
+          What would you like to see improved? (Check all that apply)
+        </label> </br>
+        <input type="checkbox"  value="Front-end Projects" /> </br>
+        <label for=""> Front-end Projects</label><br /> 
+        <input type="checkbox"  value="Back-end Projects" /> </br>
+        <label for=""> Back-end Projects</label><br /> 
+      </div>
+      <div>
+        <label for=""> Comments </label><br /> 
+        <textarea  rows="4" cols="50">
+
+        </textarea>
+      </div>
+      <input type="submit" id="submit"/>
     </form>
     <script src="js/index.js"></script>
   </body>
